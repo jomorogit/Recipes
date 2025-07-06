@@ -10,8 +10,8 @@ function App() {
     
     <>
     <Header/>
-    {/* <Main/>
-    <Slider/> */}
+    <Main/>
+    <Slider/>
     
     </>
   )
