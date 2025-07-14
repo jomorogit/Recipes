@@ -1,3 +1,14 @@
+import pizza from './img/pizza.jpg';
+import pastaCarbonara from './img/PastaCarbonara.jpg';
+import CaesarSalad from './img/Caesar.jpg';
+import Omelette from './img/omelette.jpg';
+import GrilledChicken from './img/grilled-chicken.jpg';
+import VegetableSoup from './img/vegetable-soup.jpg';
+import MashedPotatoes from './img/MashedPotatoes.jpg';
+import BeefStroganoff from './img/beef-stroganoff.jpg';
+import Pancakes from './img/Pancakes.jpg';
+import FriedRice from './img/Rice.jpg';
+
 export const RecipesMass = [
   {
     id: 1,

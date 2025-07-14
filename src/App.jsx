@@ -3,6 +3,8 @@ import './App.css'
 import Header from './assets/Header/Header'
 import Main from './assets/Main/Main'
 import Slider from './assets/Slider/Slider'
+import Search  from './assets/Search/Search'
+import Catalog from './assets/Сatalog/Catalog'
 function App() {
 
 
@@ -12,7 +14,7 @@ function App() {
     <Header/>
     <Main/>
     <Slider/>
-    
+    <Catalog/>
     </>
   )
 }

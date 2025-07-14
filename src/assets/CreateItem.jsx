@@ -16,11 +16,5 @@ export default function CreateItem(props) {
             </div>
        </div>
 
-
-
-
-
-
-      
     );
 }

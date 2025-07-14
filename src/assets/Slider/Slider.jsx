@@ -43,13 +43,13 @@ export default function Slider() {
       <h1 id='slider-text'>Best recipes today</h1>
 
       <div id='slider-container'>
-        <button id='button-left' className='slide-butt' onClick={handlePrev}>L</button>
+        <button id='button-left' className='slide-butt' onClick={handlePrev}>&lt;</button>
 
         <div id="slider">
           {recipeElements}
         </div>
 
-        <button id='button-right' className='slide-butt' onClick={handleNext}>R</button>
+        <button id='button-right' className='slide-butt' onClick={handleNext}>&gt;</button>
       </div>
     </div>
   );

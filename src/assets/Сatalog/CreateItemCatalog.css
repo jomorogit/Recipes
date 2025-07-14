@@ -1,0 +1,28 @@
+#recipe-container-catalog{
+    width: 20rem;
+    height: 20rem;
+    margin-right: 1%;
+}
+
+#reciper-button-catalog{
+    height: 60%;
+    width: 100%;
+}
+
+#recipe-image-catalog{
+    width: 100%;
+    height: 100%;
+}
+
+#recipe-footer-catalog{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+}
+
+.text-catalog{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}

@@ -3,7 +3,7 @@ export default function RecipePage(){
     
     return(
         <div id="recipe-page-countainer">
-
+            
         </div>
     )
 }
