@@ -6,17 +6,17 @@
     justify-content: center;
     
 }
+
 #block-text{
 margin-left: 1%;
-width: 30vw;
+width: 40%;
 display: flex;
-
 justify-content: center;
 flex-direction: column;
 
 }
 #block-image{
-    width: 70vw;
+    width: 60%;
    display: flex;
    justify-content: flex-end;
    align-items: flex-end;
@@ -41,4 +41,37 @@ flex-direction: column;
   color: black;
   font-size: 1rem;
  
+}
+
+@media (max-width: 480px) {
+#main-image{
+    width: 19rem;
+    height: 20rem;
+
+}
+}
+
+@media (min-width: 481px) and (max-width: 650px) {
+ #main-image{
+    width: 17rem;
+    height: 18rem;
+
+}
+}
+
+
+@media (min-width: 651px) and (max-width: 1000px) {
+ #main-image{
+    width: 23rem;
+    height: 22rem;
+
+}
+}
+
+@media (min-width: 1001px) and (max-width: 2000px) {
+ #main-image{
+    width: 36rem;
+    height: 30rem;
+
+}
 }

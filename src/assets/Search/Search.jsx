@@ -16,7 +16,7 @@ export default function Search({ inputValue, setInputValue }) {
           onChange={handleChange}
           placeholder="Find the recipe..."
         />
-        <button id="searchImage-button" onClick={() => { /* по желанию обработчик клика */ }}>
+        <button id="searchImage-button" onClick={() => { }}>
           <img id="searchImage" src={SearchImg} alt="search" />
         </button>
       </div>

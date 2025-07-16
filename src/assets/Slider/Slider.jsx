@@ -23,6 +23,7 @@ export default function Slider() {
           includeMeat={recipe.includeMeat}
           containsFlour={recipe.containsFlour}
           Salad={recipe.Salad}
+          
         />
       </div>
     );

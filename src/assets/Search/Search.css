@@ -9,13 +9,14 @@
 }
 #search-container{
     background-color: white;
-    width: 70%;
+     width: 85%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     border: 2px solid black;
+     box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
    
 }
 #searchImage-button{
@@ -34,4 +35,83 @@
     border-radius: 30px;
     font-size: 5rem;
     
+}
+
+
+@media (max-width: 480px) {
+
+#searchImage-button{
+    width: 2rem;
+    height: 2rem;
+
+}
+#search-input{
+    font-size: 2rem;
+}
+#search-container-main{
+ margin-top: 0%;  
+}
+}
+
+
+@media (min-width: 481px) and (max-width: 870px) {
+ 
+#searchImage-button{
+    width: 2rem;
+    height: 2rem;
+
+}
+#search-input{
+    font-size: 2rem;
+}
+#search-container-main{
+ margin-top: 0%;  
+}
+}
+
+
+@media (min-width: 771px) and (max-width: 1023px) {
+ 
+#searchImage-button{
+    width: 2rem;
+    height: 2rem;
+
+}
+#search-input{
+    font-size: 2rem;
+}
+#search-container-main{
+ margin-top: 15%;
+}
+}
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+ 
+#searchImage-button{
+    width: 2rem;
+    height: 2rem;
+
+}
+#search-input{
+    font-size: 2rem;
+}
+#search-container-main{
+ margin-top: 15%;  
+}
+}
+
+@media (min-width: 1280px) and (max-width: 1535px) {
+
+#searchImage-button{
+    width: 2rem;
+    height: 2rem;
+
+}
+#search-input{
+    font-size: 4rem;
+}
+#search-container-main{
+ margin-top: 15%;  
+}
 }

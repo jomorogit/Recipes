@@ -2,6 +2,7 @@
     width: 20rem;
     height: 20rem;
     margin-right: 1%;
+    
 }
 
 #reciper-button-catalog{
@@ -12,12 +13,14 @@
 #recipe-image-catalog{
     width: 100%;
     height: 100%;
+   
 }
 
 #recipe-footer-catalog{
     height: 30%;
     width: 100%;
     background-color: white;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
 }
 
 .text-catalog{
@@ -26,3 +29,40 @@
   font-size: 1rem;
   text-align: center;
 }
+
+@media (min-width: 650px) and (max-width: 740px) {
+#recipe-container-catalog{
+    width: 16rem;
+    height: 16rem;
+    margin-right: 5%;
+    
+}
+}
+
+@media (min-width: 741px) and (max-width: 850px) {
+#recipe-container-catalog{
+    width: 18rem;
+    height: 18rem;
+    margin-right: 5%;
+    
+}
+}
+
+@media (min-width: 851px) and (max-width: 1000px) {
+#recipe-container-catalog{
+    width: 20rem;
+    height: 20rem;
+    margin-right: 5%;
+    
+}
+}
+
+@media (min-width: 1001px) and (max-width: 1114px) {
+#recipe-container-catalog{
+    width: 20rem;
+    height: 20rem;
+    margin-right: 5%;
+    
+}
+}
+

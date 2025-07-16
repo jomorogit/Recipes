@@ -1,11 +1,13 @@
 #recipe-container{
     width: 100%;
     height: 100%;
+    
 }
 
 #reciper-button{
     height: 60%;
     width: 100%;
+    
 }
 
 #recipe-image{
@@ -17,6 +19,7 @@
     height: 30%;
     width: 100%;
     background-color: white;
+    
 }
 
 .text{
@@ -24,4 +27,23 @@
   color: black;
   font-size: 1rem;
   text-align: center;
+}
+
+
+@media (max-width: 480px) {
+.text{
+  font-size: 0.7rem;
+}
+}
+
+@media (min-width: 481px) and (max-width: 650px) {
+.text{
+  font-size: 0.7rem;
+}
+}
+
+@media (min-width: 651px) and (max-width: 1000px) {
+.text{
+  font-size: 0.7rem;
+}
 }
